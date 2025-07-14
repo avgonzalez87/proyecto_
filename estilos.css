@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF0F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .envio {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  nav {
+    background-color: #F5E4EF;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #A83279;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #A83279;
+  }
+  
+  .frase {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  figure {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  figure img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .nosotros-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  
+  .nosotros-content img {
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .nosotros-content p {
+    max-width: 700px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #F5E4EF;
+    color: #666;
+    font-size: 0.8rem;
+  }
+  /* Sección principal con imagen + frase lado a lado */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF0F5;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .hero .frase {
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
