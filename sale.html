@@ -1,98 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Essenza — Promociones</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+<main id="contenido" class="container py-4 py-md-5">
+<header class="mb-4">
+<h1 class="h3">Promociones</h1>
+<p class="text-secondary mb-0">Ofertas vigentes hasta agotar existencias.</p>
+</header>
 
-  <header>
-    <div class="envio text-center py-1 small">Envíos gratis a todo el país desde 100.000 COP</div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Essenza</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navEssenza" aria-controls="navEssenza" aria-expanded="false" aria-label="Abrir menú">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navEssenza" class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="velas.html">Velas</a></li>
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="sale.html">Sale</a></li>
-            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
 
-  <main id="contenido" class="container py-4 py-md-5">
-    <header class="mb-4">
-      <h1 class="h3">Promociones</h1>
-      <p class="text-secondary mb-0">Ofertas vigentes hasta agotar existencias.</p>
-    </header>
+<div class="row g-4 productos">
+<div class="col-6 col-md-4 col-lg-3">
+<figure class="card h-100 product-card sale">
+<img class="card-img-top" src="assets/img/3.png" alt="Vela Loto en descuento">
+<figcaption class="card-body">
+<h2 class="card-title h6 mb-1">Loto</h2>
+<p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$80.000</span></p>
+</figcaption>
+<div class="badge-sale">-15%</div>
+</figure>
+</div>
+<div class="col-6 col-md-4 col-lg-3">
+<figure class="card h-100 product-card sale">
+<img class="card-img-top" src="assets/img/4.png" alt="Vela Amor en descuento">
+<figcaption class="card-body">
+<h2 class="card-title h6 mb-1">Amor</h2>
+<p class="card-text mb-0"><span class="precio-antes">$80.000</span> <span class="fw-semibold">$60.000</span></p>
+</figcaption>
+<div class="badge-sale">-25%</div>
+</figure>
+</div>
+<div class="col-6 col-md-4 col-lg-3">
+<figure class="card h-100 product-card sale">
+<img class="card-img-top" src="assets/img/9.png" alt="Vela Cultura en descuento">
+<figcaption class="card-body">
+<h2 class="card-title h6 mb-1">Cultura</h2>
+<p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$80.000</span></p>
+</figcaption>
+<div class="badge-sale">-15%</div>
+</figure>
+</div>
+<div class="col-6 col-md-4 col-lg-3">
+<figure class="card h-100 product-card sale">
+<img class="card-img-top" src="assets/img/10.png" alt="Vela Esencia en descuento">
+<figcaption class="card-body">
+<h2 class="card-title h6 mb-1">Esencia</h2>
+<p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$75.000</span></p>
+</figcaption>
+<div class="badge-sale">-21%</div>
+</figure>
+</div>
+</div>
+</main>
 
-    <div class="row g-4 productos">
-      <div class="col-6 col-md-4 col-lg-3">
-        <figure class="card h-100 product-card sale">
-          <img class="card-img-top" src="assets/img/3.png" alt="Vela Loto en descuento">
-          <figcaption class="card-body">
-            <h2 class="card-title h6 mb-1">Loto</h2>
-            <p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$80.000</span></p>
-          </figcaption>
-          <div class="badge-sale">-15%</div>
-        </figure>
-      </div>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <figure class="card h-100 product-card sale">
-          <img class="card-img-top" src="assets/img/4.png" alt="Vela Amor en descuento">
-          <figcaption class="card-body">
-            <h2 class="card-title h6 mb-1">Amor</h2>
-            <p class="card-text mb-0"><span class="precio-antes">$80.000</span> <span class="fw-semibold">$60.000</span></p>
-          </figcaption>
-          <div class="badge-sale">-25%</div>
-        </figure>
-      </div>
+<footer class="border-top py-4">
+<div class="container small d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+<p class="mb-0">Essenza © 2025. Diseñado en Bogotá.</p>
+<nav aria-label="legal">
+<a class="link-secondary me-3" href="#">Términos</a>
+<a class="link-secondary" href="#">Privacidad</a>
+</nav>
+</div>
+</footer>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <figure class="card h-100 product-card sale">
-          <img class="card-img-top" src="assets/img/9.png" alt="Vela Cultura en descuento">
-          <figcaption class="card-body">
-            <h2 class="card-title h6 mb-1">Cultura</h2>
-            <p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$80.000</span></p>
-          </figcaption>
-          <div class="badge-sale">-15%</div>
-        </figure>
-      </div>
 
-      <div class="col-6 col-md-4 col-lg-3">
-        <figure class="card h-100 product-card sale">
-          <img class="card-img-top" src="assets/img/10.png" alt="Vela Esencia en descuento">
-          <figcaption class="card-body">
-            <h2 class="card-title h6 mb-1">Esencia</h2>
-            <p class="card-text mb-0"><span class="precio-antes">$95.000</span> <span class="fw-semibold">$75.000</span></p>
-          </figcaption>
-          <div class="badge-sale">-21%</div>
-        </figure>
-      </div>
-    </div>
-  </main>
-
-  <footer class="border-top py-4">
-    <div class="container small d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-      <p class="mb-0">Essenza © 2025. Diseñado en Bogotá.</p>
-      <nav aria-label="legal">
-        <a class="link-secondary me-3" href="#">Términos</a>
-        <a class="link-secondary" href="#">Privacidad</a>
-      </nav>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
